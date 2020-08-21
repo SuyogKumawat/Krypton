@@ -22,6 +22,9 @@ while True:
 
 	elif ("run" in p) and (("codeblocks") or ("compiler")):
 		os.system("codeblocks")	
+	
+	elif ("run" in p) and (("vlc player") or ("music player")):
+		os.system("vlc")	
 
 	elif ("exit" in p) or ("quit" in p):
 		pyttsx3.speak("Thanks for using Krypton")
